@@ -10,7 +10,7 @@ import SwiftUI
 struct CardView: View {
     @State private var randomNumber: Int = 1
     @State private var imageNumber: Int = 1
-    
+    @State private var isShowingSheet: Bool = false
     
     func randomImage() {
         repeat{
@@ -40,9 +40,15 @@ struct CardView: View {
                         Spacer()
                         Button(action: {
                             print("Btn is Clicked")
+                            isShowingSheet.toggle()
                         }, label: {
                             CustomButton()
                         })
+                        .sheet(isPresented: $isShowingSheet) {
+                          SettingsView()
+                            .presentationDragIndicator(.visible)
+                            .presentationDetents([.medium, .large])
+                        }
                     }
                     
                     Text("Fun and enjoyable outdoor activity for friends and families")

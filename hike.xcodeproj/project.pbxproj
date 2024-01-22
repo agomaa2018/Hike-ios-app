@@ -26,6 +26,7 @@
 		0D1B8BD12B59A9A20084FA2F /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1B8BCF2B59A9A20084FA2F /* CustomButtonStyle.swift */; };
 		0D5F6C0F2B5D0F9500896577 /* CustomCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F6C0E2B5D0F9500896577 /* CustomCircle.swift */; };
 		0D5F6C112B5D1BA100896577 /* MotionCirclesViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F6C102B5D1BA100896577 /* MotionCirclesViews.swift */; };
+		0DC684522B5ED8BC00445682 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC684512B5ED8BC00445682 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		0D1B8BCF2B59A9A20084FA2F /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
 		0D5F6C0E2B5D0F9500896577 /* CustomCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircle.swift; sourceTree = "<group>"; };
 		0D5F6C102B5D1BA100896577 /* MotionCirclesViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionCirclesViews.swift; sourceTree = "<group>"; };
+		0DC684512B5ED8BC00445682 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +117,7 @@
 			children = (
 				0D1B8BC82B5994600084FA2F /* Utility */,
 				0D1B8B852B5989640084FA2F /* hikeApp.swift */,
-				0D1B8B872B5989640084FA2F /* ContentView.swift */,
+				0DC684502B5ED89100445682 /* Screens */,
 				0D1B8B892B5989650084FA2F /* Assets.xcassets */,
 				0D1B8B8B2B5989650084FA2F /* Preview Content */,
 				0D1B8BC42B5990040084FA2F /* Components */,
@@ -167,6 +169,15 @@
 				0D1B8BCF2B59A9A20084FA2F /* CustomButtonStyle.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		0DC684502B5ED89100445682 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0D1B8B872B5989640084FA2F /* ContentView.swift */,
+				0DC684512B5ED8BC00445682 /* SettingsView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +315,7 @@
 				0D5F6C0F2B5D0F9500896577 /* CustomCircle.swift in Sources */,
 				0D1B8BCD2B599F430084FA2F /* CustomButton.swift in Sources */,
 				0D1B8B882B5989640084FA2F /* ContentView.swift in Sources */,
+				0DC684522B5ED8BC00445682 /* SettingsView.swift in Sources */,
 				0D1B8BC22B598DA30084FA2F /* CardView.swift in Sources */,
 				0D5F6C112B5D1BA100896577 /* MotionCirclesViews.swift in Sources */,
 				0D1B8BD02B59A9A20084FA2F /* CustomButtonStyle.swift in Sources */,
