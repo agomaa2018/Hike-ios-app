@@ -27,6 +27,7 @@
 		0D5F6C0F2B5D0F9500896577 /* CustomCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F6C0E2B5D0F9500896577 /* CustomCircle.swift */; };
 		0D5F6C112B5D1BA100896577 /* MotionCirclesViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F6C102B5D1BA100896577 /* MotionCirclesViews.swift */; };
 		0DC684522B5ED8BC00445682 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC684512B5ED8BC00445682 /* SettingsView.swift */; };
+		0DF7F9162B669F6500C7494D /* CustomLabeledContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF7F9152B669F6500C7494D /* CustomLabeledContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		0D5F6C0E2B5D0F9500896577 /* CustomCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircle.swift; sourceTree = "<group>"; };
 		0D5F6C102B5D1BA100896577 /* MotionCirclesViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionCirclesViews.swift; sourceTree = "<group>"; };
 		0DC684512B5ED8BC00445682 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0DF7F9152B669F6500C7494D /* CustomLabeledContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabeledContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				0D1B8BCC2B599F430084FA2F /* CustomButton.swift */,
 				0D5F6C0E2B5D0F9500896577 /* CustomCircle.swift */,
 				0D5F6C102B5D1BA100896577 /* MotionCirclesViews.swift */,
+				0DF7F9152B669F6500C7494D /* CustomLabeledContent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				0D1B8BC22B598DA30084FA2F /* CardView.swift in Sources */,
 				0D5F6C112B5D1BA100896577 /* MotionCirclesViews.swift in Sources */,
 				0D1B8BD02B59A9A20084FA2F /* CustomButtonStyle.swift in Sources */,
+				0DF7F9162B669F6500C7494D /* CustomLabeledContent.swift in Sources */,
 				0D1B8B862B5989640084FA2F /* hikeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
